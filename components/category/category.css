@@ -1,0 +1,285 @@
+body{
+  background-color: whitesmoke;
+
+}
+/* Header.css */
+.headerr {
+  background-color: #F1C27D;
+  box-shadow: 0 2px px rgba(0, 0, 0, 0.1);
+  margin-top: -28px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.promo-banner {
+  background-color: #2d7c4e ;
+  background-size: cover;
+  height: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.logoacc{
+  color:  #2d7c4e;
+}
+.upto{
+  margin-top: 0px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-right: -1px; /* Align the search button with the input field */
+  border: 1px solid #ccc;
+  border-right: none; /* Remove the right border */
+}
+
+.search-bar button {
+  padding: 5px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons a {
+  margin-left: 10px; /* Space out icons */
+  color: black; /* Icon color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.fa {
+  font-size: 20px; /* Size of icons, assuming you are using FontAwesome */
+}
+
+.search-icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px; /* Augmenter la taille de la zone de saisie */
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rendre les coins de la zone de saisie arrondis */
+}
+
+.search-button {
+ 
+  color: #2d7c4e;
+  background-color: whitesmoke;
+  border: none;
+  padding: 10px; /* Augmenter la taille du bouton de recherche */
+  border-radius: 20px; /* Rendre les coins du bouton de recherche arrondis */
+  margin-left: 10px; /* Ajouter un espace entre la zone de saisie et le bouton */
+  cursor: pointer;
+}
+
+.icons-container {
+display: flex;
+margin-left: 15px; /* Ajustez l'espacement à votre goût */
+}
+
+.icon {
+color:  #2d7c4e;
+
+font-size: 20px; /* Ajustez la taille selon vos préférences */
+margin-left: 10px; /* Espacement entre les icônes */
+cursor: pointer;
+}
+.app {
+    display: flex;
+    height: 83vh;
+    background-color: #2d7c4e;
+  
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2d7c4e;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: -40px;
+    border-radius:0px 10px 0px 10px;
+    
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+  }
+  
+  .category-item {
+    flex: 0 0 22%; /* Do not grow, do not shrink, base width of 22% */
+    max-width: 22%; /* Maximum width of 22% for each item */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Space between rows */
+  }
+  
+  .category-image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category-title {
+    margin-top: 8px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .category-item {
+      flex: 0 0 48%; /* Adjust for smaller screens, 2 items per line */
+      max-width: 48%;
+    }
+  }
+  
+  /* Add additional CSS for buttons, product cards, and other elements */
+  
+  
+  
+  
+  .sidebar h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color:#2d7c4e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .category-list li {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-list li:hover {
+    background-color: #fff;
+    transform: translateX(5px);
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* footer */
+  .footerc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 95.71%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #2d7c4e; /* Ajouter un fond blanc au pied de page */
+  }
+  
+  .footer-iconc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2d7c4e;
+    cursor: pointer;
+  }
+  
+  .footer-iconc svg {
+    margin-bottom: 4px;
+  }
+  .iconc{
+    color:white;
+    font-size: 15px;
+   
+  }
+  .iconct {
+    color:  #2d7c4e;
+    
+    font-size:15px; /* Ajustez la taille selon vos préférences */
+    margin-left: 5px; /* Espacement entre les icônes */
+    cursor: pointer;
+  }
+
+  /* ...other styles... */
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.book-image {
+  border-radius: 50%; /* Pour afficher l'image en cercle */
+  width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+  height: 100px; /* Ajustez la taille de l'image selon vos besoins */
+}

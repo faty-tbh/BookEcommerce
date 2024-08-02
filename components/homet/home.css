@@ -1,0 +1,239 @@
+/* Header.css */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .promo-banner {
+    background-color: #472f0b ;
+    background-size: cover;
+    height: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .logoacc{
+    color:  #472f0b;
+  }
+  .upto{
+    margin-top: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: -1px; /* Align the search button with the input field */
+    border: 1px solid #ccc;
+    border-right: none; /* Remove the right border */
+  }
+  
+  .search-bar button {
+    padding: 5px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icons a {
+    margin-left: 10px; /* Space out icons */
+    color: black; /* Icon color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .fa {
+    font-size: 20px; /* Size of icons, assuming you are using FontAwesome */
+  }
+  
+  .search-icons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px; /* Augmenter la taille de la zone de saisie */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rendre les coins de la zone de saisie arrondis */
+  }
+  
+  .search-button {
+   
+    color: #472f0b;
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px; /* Augmenter la taille du bouton de recherche */
+    border-radius: 20px; /* Rendre les coins du bouton de recherche arrondis */
+    margin-left: 10px; /* Ajouter un espace entre la zone de saisie et le bouton */
+    cursor: pointer;
+  }
+
+.icons-container {
+  display: flex;
+  margin-left: 15px; /* Ajustez l'espacement à votre goût */
+}
+
+.icon {
+  color:  #472f0b;
+  
+  font-size: 20px; /* Ajustez la taille selon vos préférences */
+  margin-left: 10px; /* Espacement entre les icônes */
+  cursor: pointer;
+}
+.product-cardd{
+  width: 200px; /* Ajustez selon la mise en page souhaitée */
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  height: 380px;
+  
+}
+
+
+.product-imago {
+  width: 100%;
+  height:225px;
+  
+}
+
+.product-infoo {
+  margin-bottom:80%;
+}
+
+.best-seller-badgee {
+  background-color: orange;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.product-titleee {
+  font-size: 16px;
+  margin: -150px 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: black;
+  
+}
+.product-author {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: black;
+  
+}
+
+.product-priceee {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  margin: -1px 0;
+  margin-left: 10px;
+}
+
+.add-to-cart-buttonn {
+  background-color:#472f0b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+/* footer */
+
+.footerr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; /* Ajouter un fond blanc au pied de page */
+}
+
+.footer-iconn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #472f0b;
+  cursor: pointer;
+}
+
+.footer-iconn svg {
+  margin-bottom: 4px;
+}
+.iconp{
+  color:white;
+  font-size: 15px;
+ 
+}
+.photo-search-button{
+  color:#472f0b;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Espacement entre les cartes */
+}
+
+
+
+.product-cardd {
+  width: calc(75% - 20px); /* 4 articles par ligne */
+  margin-bottom: 20px;
+}
+
+
+.product-image-containerr {
+
+  width: 100%; /* Assurez-vous que toutes les images occupent la largeur complète de leur conteneur */
+  height: 100%; /* Définir une hauteur fixe pour toutes les images */
+  object-fit: cover; /* Assurez-vous que l'image couvre entièrement son conteneur en conservant son ratio d'aspect */
+}
+
+
+.product-imagee {
+  width: 100%; /* Assurez-vous que les images occupent toute la largeur disponible */
+  height: 100%; /* Assurez-vous que les images occupent toute la hauteur disponible */
+  object-fit: cover; /* Assurez-vous que l'image couvre entièrement son conteneur en conservant son ratio d'aspect */
+}
+
+
+

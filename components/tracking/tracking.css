@@ -1,0 +1,124 @@
+
+.navbaro {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px 20px;
+    height:30%;
+  }
+  .long{
+    background-color: #2d7c4e;
+    color: #2d7c4e;
+    height:30%;
+  }
+  h3{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: cursive;
+  }
+  .inputtrack{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    border: #2d7c4e;
+    background-color: #dbf9ef;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+  .all{
+   
+    height:100%;
+  }
+  button{
+     color:#2d7c4e;
+     border-radius: 10px;
+  }
+  .progress-tracker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 60%; /* Set the width of the progress tracker to 60% */
+    margin: 0 auto; /* Center the tracker horizontally */
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; /* Ensure the circles appear above the connector */
+  }
+  
+  .connector {
+    flex-grow: 1; /* Make connectors fill the space between steps */
+    height: 4px;
+    background-color: #d4d4d4; /* Default color for the connector */
+    position: relative;
+  }
+  
+  .connector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the connector */
+    height: 100%;
+    background-color: gray;
+    /* background-color: #4CAF50;  */
+  }
+  
+  .step-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d4d4d4; /* Default color for step circles */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .step-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .step.completed .step-icon {
+    background-color: gray; /* Color for completed step circles */
+  }
+  .green {
+    color: green;
+}
+/* Add your existing styles here */
+
+/* Adjust these styles to use green for completed steps */
+.completed .step-icon,
+.completed .step-label,
+.completed .connector {
+  background-color: #4CAF50; /* Use your desired shade of green here */
+  color: white; /* Assuming you want white text on the green background */
+}
+
+/* The connector should not have text, so set its color to transparent */
+.completed .connector {
+  background-color: #4CAF50; /* Green background for the completed connector */
+}
+
+/* Make sure the '.green' class is not conflicting with other styles */
+.green .step-icon,
+.green .connector {
+  background-color: #4CAF50; 
+  /* Green background for the elements that need to be green */
+  color: white; /* White text for the labels and icons */
+}
+.green .step-label{
+    color: #4CAF50;
+}
+.hk{
+    margin-top: 200px;
+    font-family: cursive;
+}

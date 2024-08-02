@@ -1,0 +1,86 @@
+.signup-container {
+    background-color: #f3f2ff; /* Adjust the color to match the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 400px; /* Adjust as needed */
+  }
+  
+  .signup-form h2 {
+    color: #5e4ae3; /* Adjust the color to match the image */
+    text-align: center;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5e4ae3; /* Adjust the color to match the image */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .terms {
+    margin-bottom: 1.5rem;
+  }
+  
+  .terms input {
+    margin-right: 0.5rem;
+  }
+  
+  .create-account {
+    width: 100%;
+    padding: 10px;
+    background-color: #5e4ae3; /* Adjust the color to match the image */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .signin-link {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .signin-link a {
+    color: #5e4ae3; /* Adjust the color to match the image */
+    text-decoration: none;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adding some general styles for icons to match the design */
+  .icon-user:before {
+    content: "\f007"; /* FontAwesome user icon unicode */
+  }
+  
+  .icon-envelope:before {
+    content: "\f0e0"; /* FontAwesome envelope icon unicode */
+  }
+  
+  .icon-lock:before {
+    content: "\f023"; /* FontAwesome lock icon unicode */
+  }

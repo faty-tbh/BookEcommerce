@@ -1,0 +1,65 @@
+.welcome-container {
+  margin-bottom: 0; /* No margin at the bottom */
+  background-color: white;
+  overflow: hidden; /* Hide anything that goes outside of the container's bounds */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.text-section {
+  flex: 1;
+  padding: 50px;
+  text-align: left;
+
+  margin-bottom: 0; /* Ensure no margin at the bottom */
+}
+
+.text-section h1 {
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.text-section button {
+  background-color: #2d7c4e;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width:100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.image-sectiono {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right */
+  padding: 50px;
+}
+
+.image-sectiono img {
+  margin-top:95px;
+  max-width: 90%;
+  height: auto;
+  
+}
+
+.soso {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1; /* May need to adjust z-index to place SVG above or below content */
+}

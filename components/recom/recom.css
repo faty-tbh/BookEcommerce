@@ -1,0 +1,24 @@
+.RECOM{
+    background: linear-gradient(to right, #2d7c4e, #25dd72);
+}
+.promo-bannerr {
+    background-color: #2d7c4e;
+    background-size: cover;
+    height: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+    border-radius: 10px;
+    /* Ajouter une animation pour le déplacement */
+    animation: moveRightToLeft 10s linear infinite;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
